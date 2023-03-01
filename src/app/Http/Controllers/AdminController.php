@@ -11,7 +11,7 @@ use App\Choice;
 
 class AdminController extends Controller
 {
-    public function loginIndex()
+    public function loginIndex() 
     {
         return view('admin.login');
     }
